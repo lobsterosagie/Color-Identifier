@@ -1,0 +1,53 @@
+.main {
+    height: 70vh;
+    width: 60vw;
+    border: 7px solid rgba(0, 0, 0, 0.616);
+    margin: 80px auto;
+    background-color: rgba(0, 0, 0, 0.089);
+    border-radius: 20px;
+    box-shadow: 7px 7px 19px, -7px -7px 19px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+#mytextname{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#mybox {
+    height: 40%;
+    width: 80%;
+    background-color:azure;
+    margin: 40px auto;
+    border-radius: 30px;
+}
+.btn {
+    margin: auto;
+    display:inline-block;
+    justify-content: center;
+    height: 50px;
+    width: 90%;  
+    margin-left: 80px; 
+    
+}
+.but {
+    margin: 10px;
+    border-radius: 7px;
+    width: 90px;
+    height: 30px;
+    border: 2px solid white;
+    background-color: rgba(83, 149, 207, 0.404);
+    transition: transform 300ms ease-in;
+}
+.but:hover{
+    transform: scale(1.2,1.2);
+    background-color: rgb(14, 83, 143);
+    color: aliceblue;
+}
+.but:active{
+    transform: scale(0.6,0.6);
+}
