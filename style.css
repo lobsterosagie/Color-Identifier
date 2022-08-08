@@ -27,6 +27,7 @@ h1 {
     background-color:azure;
     margin: 40px auto;
     border-radius: 30px;
+    transition: mybox 500ms ease-in; 
 }
 .btn {
     margin: auto;
